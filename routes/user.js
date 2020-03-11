@@ -2,6 +2,8 @@ const express = require('express');
 
 const router = express.Router();
 // api/user/all
+
+
 router.get('/all', (req, res) => {
   res.status(200).json(
     {
